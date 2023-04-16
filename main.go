@@ -25,9 +25,8 @@ func main() {
 		fmt.Scan(&y)
 		fmt.Print("enter aperation(divide,addiction,substraction,multiplication,stop):")
 		fmt.Scan(&usertext)
-		- = constanta
 		if usertext == "stop" {
-			constanta := false
+			break
 		}
 		if usertext == "divide" {
 			fmt.Print(devide(x, y))
